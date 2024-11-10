@@ -1,0 +1,88 @@
+/* General Navbar Styling */
+.parentdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f8fafc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    background-color:  rgb(95, 182, 219);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Website Name Styling */
+  .main-heading {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    color: #1f2937;
+  }
+  
+  .bold-text {
+    color: #3b82f6;
+    font-weight: bold;
+    font-size: 1.875rem;
+  }
+  
+  /* Menu List */
+  ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1.5rem;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: #f1f4f8;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  li a:hover {
+    color: #3b82f6;
+  }
+  
+  /* Mobile Menu Icon */
+  .menu-icon {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #374151;
+  }
+  
+  /*  Hide menu on mobile */
+  .menu-links {
+    display: flex;
+    
+  }
+  
+  @media (max-width: 768px) {
+    /* Menu links hidden by default */
+    .menu-links {
+      display: none;
+      flex-direction: column;
+      gap: 1rem;
+      position: absolute;
+      top: 4rem;
+      right: 2rem;
+      background-color:  rgb(95, 182, 219);
+      padding: 1rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+  
+    /* Show menu icon on mobile */
+    .menu-icon {
+      display: block;
+    }
+  
+    /* Show menu when active */
+    .menu-links.active {
+      display: flex;
+      
+    }
+  }
+  

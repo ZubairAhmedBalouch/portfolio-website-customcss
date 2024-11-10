@@ -1,0 +1,67 @@
+/* Full-page Hero section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, rgb(95, 182, 219), rgb(50, 150, 200)); /* Gradient background */
+    min-height: 100vh; 
+    color: #ffffff;
+    text-align: center;
+    gap: 30px;
+}
+
+/* Image container */
+.image-container {
+    flex: 1;
+    max-width: 450px;
+    width: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Text container */
+.text-container {
+    flex: 1;
+    max-width: 500px;
+    padding: 20px;
+    color: #ffffff;
+    text-align: left;
+}
+
+/* Heading */
+.heading {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .heading {
+        font-size: 2.5rem;
+    }
+}
+
+/* Paragraph styling */
+.para {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #e0e0e0;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    section {
+        flex-direction: column;
+    }
+
+    .image-container, .text-container {
+        max-width: 100%;
+        text-align: center;
+    }
+}
