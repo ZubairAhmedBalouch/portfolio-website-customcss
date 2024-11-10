@@ -14,7 +14,7 @@ function About() {
                 <div className="left-content">
                     <h2>Get to know me!</h2>
                     <p>
-                        Im <b>Faizan Sajid</b>, a <b>frontend web developer</b> who loves creating clean, responsive, and user-friendly websites. I work with tools like <b>Next.js, Tailwind CSS, and TypeScript</b> to bring ideas to life on the web. Im always learning new things and enjoy keeping up with the latest trends in web development to build better, more engaging experiences.
+                        Im <b>Zubair Ahmed Baloch</b>, a <b>frontend web developer</b> who loves creating clean, responsive, and user-friendly websites. I work with tools like <b>Next.js, Tailwind CSS, and TypeScript</b> to bring ideas to life on the web. Im always learning new things and enjoy keeping up with the latest trends in web development to build better, more engaging experiences.
                     </p>
                     <p>
                         Im a bit of a digital product junky. Over the years, Ive used hundreds of web and mobile apps in different industries and verticals. Feel free to contact me here.
